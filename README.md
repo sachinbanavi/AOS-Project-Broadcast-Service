@@ -24,5 +24,5 @@ Steps to Run:
    After the spanning tree is created you will be prompted to enter the broadcast message.
    Once the message is entered it is broadcasted to all other nodes.
    Please note that only one node can broadcast at a time.
-After completion of broadcast, convergecast kicks inn.
-All the parent nodes will receive the acknowledgement message in the form of DONE message to imply the completion of broadcast.
+3. After completion of broadcast, convergecast kicks inn.
+   All the parent nodes will receive the acknowledgement message in the form of DONE message to imply the     completion of broadcast.
