@@ -14,3 +14,15 @@ operation can occur at any time.
 
 Output: Each node should print its set of tree neighbors. Each node should also output any
 broadcast message it sends or receives.
+
+Steps to Run:
+1. Caller.java is the main class from which I am initiating all the processes.
+   Run Caller.java for each node in the system by passing node number as argument in the command line.
+   Ex: java Caller 1
+
+2. Once all the nodes are active you will start to see their activity on their window.
+   After the spanning tree is created you will be prompted to enter the broadcast message.
+   Once the message is entered it is broadcasted to all other nodes.
+   Please note that only one node can broadcast at a time.
+After completion of broadcast, convergecast kicks inn.
+All the parent nodes will receive the acknowledgement message in the form of DONE message to imply the completion of broadcast.
